@@ -58,6 +58,7 @@
 
 .cardTileContainer {
     border: 1px solid black;
+    box-shadow: 0 0 5px 0;
     border-radius: 60px;
     padding: 40px 30px 20px 30px;
     margin: 0 130px;
@@ -103,4 +104,43 @@
     font-size: 22px;
 }
 
+/* Bottom section */
+
+.bottomContainer {
+    margin: 20px 130px;
+    text-align: center;
+}
+
+.bottomHeading {
+    font-size: 38px;
+}
+
+.items {
+    border: 1px solid black;
+    box-shadow: 0 0 5px 0;
+    border-radius: 60px;
+    padding: 40px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.item {
+    text-align: center;
+}
+
+.round {
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 0 5px 40px #ededed inset;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.item .itemDisc{
+    font-size: 19px;
+
+}
 
