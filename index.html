@@ -11,6 +11,13 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -36,7 +43,23 @@
     <!-- Card tile section  -->
 
     <div class="cardTileContainer">
-      <div class="carouselSec"></div>
+      <div class="carouselSec">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./ASSETS/Page1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./ASSETS/Page2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./ASSETS/Page3.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
       <div class="discriptionSec">
         <h2 class="title">Card Title</h2>
         <span class="disPrice">$499</span>
@@ -54,7 +77,7 @@
     <!-- Bottom section -->
 
     <div class="bottomContainer">
-        <h2 class="bottomHeading">Features</h2>
+      <h2 class="bottomHeading">Features</h2>
       <div class="items">
         <div class="item">
           <div class="round"></div>
@@ -73,7 +96,12 @@
       </div>
     </div>
 
+    
+    <!-- Swiper JS  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="./script.js"></script>
+
     <!-- Bootstrap script  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

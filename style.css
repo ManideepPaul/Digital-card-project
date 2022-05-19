@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Courgette', cursive;
 }
 
@@ -58,17 +58,23 @@
 
 .cardTileContainer {
     border: 1px solid black;
-    box-shadow: 0 0 5px 0;
     border-radius: 60px;
     padding: 40px 30px 20px 30px;
     margin: 0 130px;
     background-color: white;
     margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carouselSec {
+    width: 60%;
 }
 
 .discriptionSec {
     text-align: center;
-    width: 40%;
+    width: 280px;
     max-height: 400px;
 }
 
@@ -117,7 +123,6 @@
 
 .items {
     border: 1px solid black;
-    box-shadow: 0 0 5px 0;
     border-radius: 60px;
     padding: 40px 30px 20px 30px;
     display: flex;
@@ -143,4 +148,40 @@
     font-size: 19px;
 
 }
+
+/* Swiper section CSS */
+  
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 220px;
+    height: 310px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.swiper-pagination-bullet{
+    opacity: 1;
+    background-color: grey;
+}
+
+.swiper-pagination-bullet-active {
+    border-radius: 10px;
+    width: 50px;
+    background-color: rgb(67, 66, 66);
+}
+        
 
