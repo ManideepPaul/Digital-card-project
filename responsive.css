@@ -1,0 +1,79 @@
+@media screen and (max-width: 950px) {
+  .navbar {
+    display: none;
+  }
+  .mobNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 5px 5px 20px grey;
+  }
+  .ham {
+    position: absolute;
+    left: 20px;
+  }
+
+  .cardTileContainer {
+    flex-direction: column;
+    padding: 40px 0 20px 0;
+  }
+
+  .carouselSec {
+    width: 100%;
+  }
+
+  .discriptionSec {
+    display: none;
+}
+
+.disSecMob {
+    display: block;
+    text-align: center;
+    width: 280px;
+    max-height: 400px;
+}
+
+  .btn {
+      margin-bottom: 25px;
+      border-radius: 30px;
+  }
+
+  .line {
+      height: 1px;
+      width: 60%;
+      background-color: black;
+      margin: 25px auto 15px auto;
+  }
+
+  .title {
+    font-size: 28px;
+}
+
+.cardDisc {
+    margin: 15px 10px 15px 20px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 20px 20px 20px;
+    gap: 25px;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemDisc {
+    width: 60%;
+}
+
+}
